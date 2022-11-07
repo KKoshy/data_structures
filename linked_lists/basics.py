@@ -21,6 +21,8 @@ This file holds basic operations using Linked List such as,
 18) traverse_loop
 19) fix_loop_using_floyd
 20) reverse
+21) get_previous_node
+22) get_last_node
 
 """
 
@@ -506,6 +508,35 @@ class LinkedList:
                 current_node = next_node
             self.head = prev_node
             self.traverse()
+
+    def get_previous_node(self, current_node):
+        """
+        Gets the previous node of the specified node
+
+        :param current_node: current node of the Linked List
+        :return: previous node
+        """
+        print("Gets the previous node of the specified node")
+        node = self.head
+        while node is not None:
+            if node.next is current_node:
+                print("current node: {}; previous node: {}".format(current_node.data, node.data))
+                return node
+            node = node.next
+
+    def get_last_node(self):
+        """
+        Gets the last node of the Linked List
+
+        :return: Last node of the Linked List
+        """
+        print("Gets the Last node of the Linked List")
+        node = self.head
+        while node is not None:
+            if node.next is None:
+                print("last node: {}".format(node.data))
+                return node
+            node = node.next
 
 
 link_list = LinkedList()
