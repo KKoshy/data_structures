@@ -8,5 +8,3 @@ For now this covers,
 Note: 
 
 Corrections and suggestions are always welcome.
-
-Kindly share the same via kamalikoshy97@gmail.com
