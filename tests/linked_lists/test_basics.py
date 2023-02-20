@@ -5,7 +5,7 @@ This file includes unit test cases for basics of the Linked Lists
 import logging
 
 from data.linked_list import LinkList as ll
-from linked_lists.basics import LinkedList as llist
+from linked_lists.basics_ll import LinkedList as llist
 
 
 def test_length(link_list):

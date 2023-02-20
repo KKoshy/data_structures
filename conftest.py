@@ -1,5 +1,5 @@
 import pytest
-from linked_lists.basics import LinkedList
+from linked_lists.basics_ll import LinkedList
 from data.linked_list import LinkList as ll
 
 
