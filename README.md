@@ -1,6 +1,6 @@
 # Data Structures
 
-This repository holds snippets for some fo the Data Structures.
+This repository holds snippets for some of the Data Structures.
 For now this covers,
 1) Linked List
 2) Binary Search Tree
